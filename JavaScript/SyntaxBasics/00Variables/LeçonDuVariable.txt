@@ -1,0 +1,19 @@
+/*
+En JavaScript, les variables sont utilisées pour stocker des données. Voici les points clés à retenir :
+
+Déclaration de variables : Vous pouvez déclarer une variable en utilisant les mots-clés var, let, ou const. var est utilisé pour la portée globale ou fonctionnelle, let pour la portée de bloc, et const pour déclarer des constantes.
+
+Affectation de valeurs : Vous pouvez assigner une valeur à une variable en utilisant l'opérateur =. Par exemple : let x = 5;.
+
+Types de données : JavaScript est dynamiquement typé, ce qui signifie que les types de données sont déterminés automatiquement lorsque vous affectez une valeur à une variable. Les types de données incluent les nombres, les chaînes de caractères, les booléens, les tableaux, les objets, etc.
+
+Nommer les variables : Les noms de variables peuvent contenir des lettres, des chiffres, des caractères de soulignement (_) et des signes de dollar ($), mais ils ne peuvent pas commencer par un chiffre. Ils sont sensibles à la casse (par exemple, myVar est différent de myvar).
+
+Portée des variables : La portée d'une variable détermine où elle peut être référencée. Les variables déclarées avec var ont une portée de fonction ou globale, tandis que celles déclarées avec let ou const ont une portée de bloc.
+
+Hoisting : En JavaScript, les déclarations de variables (mais pas les initialisations) sont "hisées" (mise au sommet) au début de leur contexte d'exécution. Cela signifie que vous pouvez utiliser une variable avant de la déclarer, mais elle aura une valeur undefined.
+
+Réaffectation des variables : Vous pouvez réaffecter une variable avec une nouvelle valeur à tout moment. Par exemple : x = 10;.
+
+Constantes : Les variables déclarées avec const ne peuvent pas être réaffectées une fois qu'elles ont été initialisées. Cependant, si la variable est un objet, les propriétés de cet objet peuvent être modifiées.
+*/
